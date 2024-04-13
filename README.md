@@ -12,7 +12,7 @@ If you enjoy this project, you are welcome to cite our article and sustain my Gi
 
 The aim of this code is to obtain a graphical representation of commonly used clinical statistics such as prevalences and odd rations (ORs) is the form of a <i> comorbidome plot</i>.
 ![](https://github.com/coclab/Comorbidome_plot/blob/main/comorbidome_plot.png)
-The comorbidome plot graphically represents all comorbidities (or generally factors) as bubbles in the Cartesian plane where the origin represents a certain health condition or outcome (in our study, psoriasis). The size of each bubble is proportional to the prevalence of the comorbidity, while proximity to the center expresses the strength of the association between the comorbidity and the health outcome (this is numerically obtained inverting the odd ratio or hazard ratio). All circles relating to a comorbidity with an increased odd or risk fall inside the dashed orbit ($1/OR < 1$), outside otherwise ($1/OR > 1$).
+The comorbidome plot graphically represents all comorbidities (or generally factors) as bubbles in the Cartesian plane where the origin represents a certain health condition or outcome (in our study, psoriasis). The size of each bubble is proportional to the prevalence of the comorbidity, while proximity to the center expresses the strength of the association between the comorbidity and the health outcome (this is numerically obtained inverting the odd or hazard ratios). All circles relating to a comorbidity with an increased odd or risk fall inside the dashed orbit or radius 1, outside otherwise ($1/OR > 1$).
 
 ## Data and code
 The notebook ```Comorbidome_plot.ipynb``` contains all the steps to process the statistics and plot all the graphical objects. A complete working example is presented using the data ```example_data_pso.xlsx``` resulting from our study.
@@ -20,6 +20,7 @@ The notebook ```Comorbidome_plot.ipynb``` contains all the steps to process the 
 ## Contacts
 For any comment or enquiry fell free to contact me at claudia.cozzolino@studenti.unipd.it or on [LinkedIn](https://www.linkedin.com/in/claudia-cozzolino-7b11661b8/)
 I will be happy to receive your suggestions. Do you think it might be useful to develop a python library with the whole pipeline for this purpose?
+
 Thank you ❤️
 
 <br>
