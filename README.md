@@ -10,7 +10,7 @@ If you enjoy this project, you are welcome to cite our article and sustain my Gi
 
 ## Aim
 
-The aim of this code is to obtain a graphical representation of commonly used clinical statistics such as prevalences and odd rations (ORs) is the form of a <i> comorbidome plot</i>.
+The aim of this code is to obtain a graphical representation of commonly used clinical statistics such as prevalences and odd ratios (ORs) is the form of a <i> comorbidome plot</i>.
 ![](https://github.com/coclab/Comorbidome_plot/blob/main/comorbidome_plot.png)
 The comorbidome plot graphically represents all comorbidities (or generally factors) as bubbles in the Cartesian plane where the origin represents a certain health condition or outcome (in our study, psoriasis). The size of each bubble is proportional to the prevalence of the comorbidity, while proximity to the center expresses the strength of the association between the comorbidity and the health outcome (this is numerically obtained inverting the odd or hazard ratios). All circles relating to a comorbidity with an increased odd or risk fall inside the dashed orbit or radius 1 (if 1/OR < 1), outside otherwise (1/OR > 1).
 
